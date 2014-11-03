@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include header %>
+<body>
+	<% include navbar %>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Hello, MANTAN!</h1>
+			<p>
+				<a class="btn btn-primary btn-lg" role="button">Learn more</a>
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<% include content %>
+		<hr>
+
+		<% include footer %>
+	</div>
+	<!-- /container -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#home').addClass("active");
+		});
+	</script>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</body>
+</html>
